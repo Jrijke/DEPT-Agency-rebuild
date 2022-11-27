@@ -1,13 +1,20 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   css: [
     '~/assets/css/main.css',
     '@fortawesome/fontawesome-svg-core/styles.css'
   ],
-  postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
-    },
+  modules: [
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/sanity'
+  ],
+  runtimeConfig: {
+    public: {
+      CONTENTFUL_API_BASE_URL: process.env.CONTENTFUL_API_BASE_URL,
+      CONTENTFUL_ACCESS_TOKEN: process.env.CONTENTFUL_ACCESS_TOKEN,
+      CONTENTFUL_SPACE_ID: process.env.CONTENTFUL_SPACE_ID,
+    }
+  },
+  sanity: {
+    projectId: 'myProject'
   },
 })
