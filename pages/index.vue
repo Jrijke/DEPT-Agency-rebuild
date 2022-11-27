@@ -1,5 +1,3 @@
 <template>
-  <main>
-    <AppHeader/>
-  </main>
+  <AppHeader/>
 </template>
