@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'MaisonNeue';
+    src:  url('../fonts/FontsFree-Net-Maison-Neue-Light.woff2') format('woff2'),
+    url('../fonts/FontsFree-Net-Maison-Neue-Light.woff') format('woff');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'MaisonNeue';
+    src:  url('../fonts/FontsFree-Net-Maison-Neue-Book.woff2') format('woff2'),
+    url('../fonts/FontsFree-Net-Maison-Neue-Book.woff') format('woff');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'MaisonNeue';
+    src:  url('../fonts/FontsFree-Net-Maison-Neue-Mono.woff2') format('woff2'),
+    url('../fonts/FontsFree-Net-Maison-Neue-Mono.woff') format('woff');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'MaisonNeue';
+    src:  url('../fonts/FontsFree-Net-Maison-Neue-Bold.woff2') format('woff2'),
+    url('../fonts/FontsFree-Net-Maison-Neue-Bold.woff') format('woff');
+    font-weight: 700;
+}
