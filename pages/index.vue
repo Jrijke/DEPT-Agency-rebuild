@@ -1,3 +1,4 @@
 <template>
   <AppHeadline/>
+  <AppCases/>
 </template>
