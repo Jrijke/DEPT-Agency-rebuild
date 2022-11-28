@@ -1,5 +1,5 @@
 <template>
-  <section v-for="headline in data" v-bind:key="headline._id" class='flex items-end flex-al relative px-8 py-12 h-96'>
+  <section v-for="headline in data" v-bind:key="headline._id" class='flex items-end flex-al relative p-6 md:px-8 md:py-12 h-[26rem] md:h-[40rem]'>
     <SanityImage
       class="absolute top-0 left-0 w-full object-cover h-full"
       :asset-id="headline.headlineimage.asset._ref"
