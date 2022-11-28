@@ -1,0 +1,9 @@
+.default-layout,
+.default-layout > div {
+    min-height: 100vh;
+}
+
+.main-default {
+    position: relative;
+    width: 100%;
+}
