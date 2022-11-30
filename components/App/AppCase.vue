@@ -1,7 +1,7 @@
 <template>
   <article :class="item.variant && item.variant === 'column' ? 'w-full md:w-1/2 h-[28rem]' : 'w-full flex-col md:flex-row h-[auto]'" class="case flex justify-between relative  md:h-[35rem]">
     <SanityImage
-      :class="`${item.variant && item.variant === 'column' ? 'w-full h-full' : 'h-[30rem] md:h-full'} top-0 left-0 absolute object-cover`"
+      :class="`${item.variant && item.variant === 'column' ? 'h-full' : 'h-[30rem]'} w-full top-0 left-0 absolute object-cover`"
       :asset-id="item.caseimage.asset._ref"
       auto="format"
       :alt="item.title"

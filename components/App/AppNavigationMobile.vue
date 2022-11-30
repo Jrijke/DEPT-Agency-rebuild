@@ -14,11 +14,9 @@
 </template>
 
 <script setup>
-  // Toggler for the menu to open or close
-  import AppNavigation from './AppNavigation';
-
   const pages = ['Cases', 'Culture', 'Diensten', 'Insights', 'Careers', 'Contact'];
 
+  // Toggler for the menu to open or close
   const showNavbar       = ref(false);
   const toggleNavigation = () => {
     showNavbar.value = !showNavbar.value;
