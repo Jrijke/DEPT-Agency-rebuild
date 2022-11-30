@@ -1,5 +1,6 @@
-@import "fonts.css";
 @import "global.css";
+@import "fonts.css";
+@import "transitions.css";
 
 @tailwind base;
 @tailwind components;

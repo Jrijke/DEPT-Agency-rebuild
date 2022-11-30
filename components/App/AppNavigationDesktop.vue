@@ -1,10 +1,11 @@
 <template>
-  <nav class="hidden relative leading-tight md:flex md:justify-evenly md:min-w-[30rem]">
-    <nuxt-link to="/">Cases</nuxt-link>
-    <nuxt-link to="/">Culture</nuxt-link>
-    <nuxt-link to="/">Diensten</nuxt-link>
-    <nuxt-link to="/">Insights</nuxt-link>
-    <nuxt-link to="/">Careers</nuxt-link>
-    <nuxt-link to="/">Contact</nuxt-link>
+  <nav class="navigation-desktop hidden relative leading-tight font-light md:flex md:justify-evenly md:min-w-[45rem]">
+    <AppNavigation link-class='border-b border-b-dept-black hover:border-b-white'/>
   </nav>
 </template>
+
+<style>
+  .router-link-active {
+    border-color: #fff;
+  }
+</style>

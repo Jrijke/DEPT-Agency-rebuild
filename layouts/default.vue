@@ -11,6 +11,8 @@
 
   useHead({
     title: 'Dept agency rebuild',
+    viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
+    charset: 'utf-8',
     meta: [
       { name: 'description', content: 'This is a Front end assignment for Dept Agency' },
       { property: 'og:title', content: `Dept agency rebuild - ${route.meta.title}` },
