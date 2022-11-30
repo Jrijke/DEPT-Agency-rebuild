@@ -1,6 +1,12 @@
-# Nuxt 3 Minimal Starter
+# Dept agency reuild Nuxt 3 App
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+
+## go directly to the deployed production mode version hosted by vercel
+
+got to: https://dept-agency-rebuild.vercel.app/
+
+
 
 ## Setup
 
