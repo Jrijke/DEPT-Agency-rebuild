@@ -11,6 +11,7 @@ module.exports = {
     extend: {
       colors: {
         'dept-black': '#121212',
+        'dept-gray': '#3E3E3E',
       }
     },
     fontFamily: {
